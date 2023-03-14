@@ -22,7 +22,20 @@ ul {
 
 .navigation-menu {
     background-color: #373c3f;
-    overflow: hidden;
+    display: flex;
+    max-height: 74px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigation {
+    padding: 15px;
+}
+
+.menu-icon {
+    padding: 15px;
+    background-color: black;
 }
 
 .navigation-menu a {
