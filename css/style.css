@@ -1,0 +1,9 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.images-block {
+    display: flex;
+    /*max-width: 33%;*/
+}
