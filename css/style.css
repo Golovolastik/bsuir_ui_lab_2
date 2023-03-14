@@ -23,7 +23,7 @@ ul {
 .navigation-menu {
     background-color: #373c3f;
     display: flex;
-    max-height: 74px;
+    height: 174px;
     color: white;
     justify-content: space-between;
     align-items: center;
