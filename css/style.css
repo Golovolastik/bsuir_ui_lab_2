@@ -1,9 +1,36 @@
+
 img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     display: block;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .images-block {
     display: flex;
     /*max-width: 33%;*/
+}
+
+.arrow {
+    padding: 50px;
+    display: block;
+    width: 327px;
+}
+
+.navigation-menu {
+    background-color: #373c3f;
+    overflow: hidden;
+}
+
+.navigation-menu a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    text-decoration: none;
+    color: inherit;
 }
