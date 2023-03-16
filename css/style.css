@@ -76,6 +76,16 @@ a:hover,a.active{
     display: none;
 }
 
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.images-block {
+    display: flex;
+}
+
 @media (max-width: 952px){
     label.logo{
         font-size: 30px;
