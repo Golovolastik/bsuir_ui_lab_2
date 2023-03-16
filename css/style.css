@@ -57,7 +57,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-a:hover,a.active{
+a:hover{
     background: #1b9bff;
     transition: .5s;
 }
@@ -135,11 +135,5 @@ img {
 
 .images-block {
     display: flex;
-}
-
-.arrow {
-    padding: 50px;
-    display: block;
-    width: 327px;
 }
 
