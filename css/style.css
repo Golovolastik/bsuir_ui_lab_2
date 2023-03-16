@@ -86,15 +86,15 @@ img {
     display: flex;
 }
 
-@media (max-width: 952px){
-    label.logo{
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
+/*@media (max-width: 952px){*/
+/*    label.logo{*/
+/*        font-size: 30px;*/
+/*        padding-left: 50px;*/
+/*    }*/
+/*    nav ul li a{*/
+/*        font-size: 16px;*/
+/*    }*/
+/*}*/
 
 @media (max-width: 858px){
     .checkbtn{
@@ -118,22 +118,23 @@ img {
     nav ul li a{
         font-size: 20px;
     }
-    a:hover,a.active{
+    a:hover{
         background: none;
         color: #0082e6;
     }
     #check:checked ~ ul{
         left: 0;
     }
-}
 
-img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
-.images-block {
-    display: flex;
+    .images-block {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
