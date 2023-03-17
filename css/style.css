@@ -91,8 +91,14 @@ img {
     width: 33.33%;
 }
 
-article label {
+.text {
+    background: #EBEBEBFF;
+}
+
+.article-title {
+    display: block;
     padding-left: 82px;
+    padding-top: 54px;
     text-shadow: 0 1px 0 #ffffff;
     color: #088ca5;
     font-family: Montserrat;
@@ -177,12 +183,6 @@ article label {
         left: 0;
     }
 
-    /*img {*/
-    /*    width: 100%;*/
-    /*    height: auto;*/
-    /*    display: block;*/
-    /*}*/
-
     .images-block {
         display: flex;
         flex-direction: column;
@@ -190,6 +190,10 @@ article label {
 
     .images-block img {
         width: 100%;
+    }
+
+    .text p {
+        column-count: 1;
     }
 }
 
