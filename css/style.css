@@ -142,9 +142,6 @@ img {
         font-size: 30px;
         padding-left: 50px;
     }
-    nav ul li a{
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 640px){
@@ -156,6 +153,9 @@ img {
 
     .checkbtn{
         display: block;
+    }
+    nav ul{
+        margin: 0;
     }
     ul{
         position: fixed;
